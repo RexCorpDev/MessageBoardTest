@@ -1,0 +1,54 @@
+<nav class="navbar navbar-default" >
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" ui-sref="home"> SIGN UP </a>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container" >
+  <p>
+    <b>
+      Name:
+    </b>
+  </p>
+  <input  type="text" ng-model='name.first' placeholder="First">
+  <br>
+  <br>
+  <input  type="text" ng-model='name.last' placeholder="Last">
+  <hr>
+  <p>
+    <b>
+      Username:
+    </b>
+  </p>
+  <input  type="text" ng-model='username' placeholder="Username">
+  <hr>
+  <p>
+    <b>
+      Password:
+    </b>
+  </p>
+  <input type="password" ng-model='password' placeholder="Password">
+  <hr>
+  <p>
+    <b>
+      Image:
+    </b>
+  </p>
+  <input  type="text" ng-model='image' placeholder="Image URL">
+  <hr>
+  <p>
+    <b>
+      About:
+    </b>
+  </p>
+  <input type="text" ng-model='about' placeholder="Tell us about yourself">
+  <hr>
+  <p>
+    <b>
+      <button class="btn btn-info" ng-click='createUser()'><i class="fa fa-plus fa-1x fa-fw"></i> Sign Up!</button>
+    </b>
+  </p>
+</div>
